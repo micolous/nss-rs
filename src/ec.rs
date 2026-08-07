@@ -42,6 +42,7 @@ pub enum EcCurve {
 pub type EcdhPublicKey = PublicKey;
 pub type EcdhPrivateKey = PrivateKey;
 
+#[derive(Clone, Debug)]
 pub struct EcdhKeypair {
     pub public: EcdhPublicKey,
     pub private: EcdhPrivateKey,
