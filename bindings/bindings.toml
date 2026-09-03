@@ -15,6 +15,7 @@ types = [
     "HpkeSymmetricSuite",
     "SSLAeadContext",
     "SSLAlertDescription",
+    "SSLAntiReplayContext",
     "SSLCertificateCompressionAlgorithm",
     "SSLExtensionHandler",
     "SSLExtensionType",
