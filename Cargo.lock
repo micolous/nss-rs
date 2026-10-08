@@ -439,7 +439,7 @@ dependencies = [
 
 [[package]]
 name = "nss-rs"
-version = "0.17.0"
+version = "0.16.2"
 dependencies = [
  "bindgen",
  "codspeed-criterion-compat",
